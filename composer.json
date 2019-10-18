@@ -1,6 +1,6 @@
 {
     "name": "linnit/greentext",
-    "description": "A twig extension to quotes to greentext",
+    "description": "A twig extension to create greentext",
     "license": "MIT",
     "require": {
         "php": "^7.0",
