@@ -1,0 +1,22 @@
+{
+    "name": "linnit/greentext",
+    "description": "A twig extension to quotes to greentext",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "twig/twig": "^1.41|^2.10|^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linnit\\Twig\\Extension\\": "./src/Linnit/Twig/Extension/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linnit\\Tests\\": "tests/"
+        }
+    }
+}
